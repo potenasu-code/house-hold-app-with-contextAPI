@@ -1,0 +1,42 @@
+/* aタグ */
+.fc-h-event {
+  background-color: transparent;
+  border: none;
+  text-align: right;
+  pointer-events: none; /* ポインターイベントを無視する */
+}
+
+/* カレンダーの背景色設定 */
+.fc-daygrid-body,
+.fc-day {
+  background-color: white; /* 背景色を白に設定 */
+}
+
+.fc-col-header-cell {
+  background-color: #42a5f5;
+  color: white; /* ヘッダーのテキスト色を白に設定 */
+}
+
+.fc .fc-daygrid-day-frame {
+  height: 100%;
+  min-height: 100px;
+}
+
+/* カスタムイベントの見た目ここから */
+.money {
+  white-space: nowrap; /* テキストを折り返さない */
+  overflow: hidden; /* はみ出したテキストを隠す */
+  text-overflow: ellipsis; /* はみ出したテキストの代わりに省略記号を表示 */
+}
+
+#event-income {
+  color: #2196f3;
+}
+
+#event-expense {
+  color: #f44336;
+}
+
+#event-balance {
+  color: #4caf50;
+}
